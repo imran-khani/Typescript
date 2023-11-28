@@ -21,10 +21,14 @@ const log = console.log.bind(console, "The answer is: ");
 
 // learning enums
 
-enum Color{
-    Red,
-    Green,
-    Blue,
-}
+// enum Color{
+//     Red=3,
+//     Green,
+//     Blue,
+// }
 
-let myColor:Color = Color.Red
+// let myColor:Color = Color.Blue
+
+// log(myColor)
+
+
