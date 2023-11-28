@@ -12,5 +12,9 @@ const log = console.log.bind(console, "The answer is: ");
 //     age:30
 // }
 
+// learning tuples
 
+// let myTuple:readonly [number,boolean,string]
+// myTuple = [54,true,'sfdsfa']
+// log(myTuple)
 
