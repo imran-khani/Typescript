@@ -18,3 +18,13 @@ const log = console.log.bind(console, "The answer is: ");
 // myTuple = [54,true,'sfdsfa']
 // log(myTuple)
 
+
+// learning enums
+
+enum Color{
+    Red,
+    Green,
+    Blue,
+}
+
+let myColor:Color = Color.Red
