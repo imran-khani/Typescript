@@ -160,3 +160,6 @@ const log = console.log.bind(console, "The answer is: ");
 // teacher.startClass();
 // teacher.endClass();
 // log(teacher);
+
+// learning Generics
+
