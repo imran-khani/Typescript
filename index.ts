@@ -163,3 +163,44 @@ const log = console.log.bind(console, "The answer is: ");
 
 // learning Generics
 
+// Generic function
+// function identity<T>(arg: T): T {
+//   return arg;
+// }
+
+// const result = identity<string>("Hello, world!");
+// console.log(result);
+
+// // Generic class
+// class Box<T> {
+//   private value: T;
+
+//   constructor(value: T) {
+//     this.value = value;
+//   }
+
+//   getValue(): T {
+//     return this.value;
+//   }
+// }
+
+// const box = new Box<number>(42);
+// const box2 = new Box<string>("Hello, world!"); 
+// console.log(box.getValue());
+
+// // Generic interface
+// interface Pair<T, U> {
+//   first: T;
+//   second: U;
+// }
+
+// const pair: Pair<string, string> = {
+//   first: "one",
+//   second: '2',
+// };
+// console.log(pair);
+
+
+// const sum =<T> (a:T,b:T)=>{
+//   return a+b
+// }
